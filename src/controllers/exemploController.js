@@ -2,9 +2,9 @@ import ExemploModel from '../models/ExemploModel.js';
 
 /**
  * @typedef {object} ReqBodyExemplo
- * @property {string} nome
- * @property {boolean} estado.required
- * @property {number} preco.required
+ * @property {string} nome - Nome do exemplo
+ * @property {boolean} estado.required - Estado do exemplo (obrigatório)
+ * @property {number} preco.required - Preço do exemplo (obrigatório)
  */
 
 /**
